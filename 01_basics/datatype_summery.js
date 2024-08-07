@@ -9,7 +9,7 @@ let userEmail;
 
 const unique = Symbol(123)
 const unique2 = Symbol(123)
-console.log(unique === unique2);
+// console.log(unique === unique2); // false
 
 const BigNumber = 123213132424253235n
 
@@ -30,7 +30,7 @@ const myFunction = function name() {
     
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
@@ -51,3 +51,22 @@ console.log(typeof myFunction);
 //https://262.ecma-international.org/5.1/#sec-11.4.3 imp
 
 
+// stack(primitive) and heap (non-primitive)
+
+let myName = "abdullah"
+let myNewName = myName
+myNewName = "khan"
+console.log(myName);
+console.log(myNewName);
+
+let userOne = {
+    name: "abdullah",
+    email: "abdullah@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "khan@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

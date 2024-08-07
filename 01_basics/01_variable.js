@@ -16,3 +16,7 @@ because of issue in block scope and functionl scope
 console.table([accountId ,accountEmail , accountPassword, accountCity, accountState])
 
 console.log(accountId);
+
+
+
+
