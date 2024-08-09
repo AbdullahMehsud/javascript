@@ -23,3 +23,6 @@ console.log(Math.round(6.7)); // 7
 console.log(Math.round(6.2)); // 6
 console.log(Math.ceil(4.1)); //5
 console.log(Math.floor(4.9)); //4
+
+
+
