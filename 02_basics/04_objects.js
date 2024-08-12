@@ -71,10 +71,10 @@ const {courseInstructure: instructure} = course
 
 console.log(instructure);
 
-{
-    "name": "irfan",
-    "email": "irfan@gmail.com"
-}
+// {
+//     "name": "irfan",
+//     "email": "irfan@gmail.com"
+// }
 
 [
     {},
