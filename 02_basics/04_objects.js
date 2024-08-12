@@ -58,3 +58,26 @@ const users = [
 // console.log(testApp2.hasOwnProperty("isLoggedIn"));
 // console.log(testApp2.hasOwnProperty("isLogged"));
 
+const course = {
+    courseName: "full stack development",
+    price: "12000",
+    courseInstructure: "hitesh"
+}
+
+// course.courseInstructure
+
+const {courseInstructure: instructure} = course
+// console.log(course.courseInstructure);
+
+console.log(instructure);
+
+{
+    "name": "irfan",
+    "email": "irfan@gmail.com"
+}
+
+[
+    {},
+    {},
+    {}
+]
