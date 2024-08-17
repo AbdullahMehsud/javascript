@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Edit and delete</title>
+</head>
+<body style="background-color: #222; color: #fff;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function languageName(langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector(".language").appendChild(li);
+    }
+    languageName("python")
+    languageName("typscript")
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addOptiLanguage("goLang")
+
+    //Edit
+
+    const secondLang  = document.querySelector('li:nth-child(2)')
+    // secondLang.innerHTML = "java"
+    const newLi = document.createElement('li')
+    newLi.textContent = "php"
+    secondLang.replaceWith(newLi)
+
+    //edit
+
+    const firstLang = document.querySelector('li:first-child')
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    //remove
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+</script>
+</html>
