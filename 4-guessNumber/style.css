@@ -3,11 +3,25 @@ html {
   }
   
   body {
-    width: 300px;
-    max-width: 750px;
-    min-width: 480px;
-    margin: 0 auto;
-    background-color: #212121;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 1%, rgba(253,29,29,1) 42%, rgba(252,176,69,1) 100%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
   }
   
   .lastResult {
@@ -72,10 +86,10 @@ html {
     box-sizing: border-box;
     text-align: center;
     width: 450px;
-    height: 550px;
+    height: 100vh;
     background-color: #474747;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   h1 {

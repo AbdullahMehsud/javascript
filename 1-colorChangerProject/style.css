@@ -22,13 +22,30 @@ html {
     background: grey;
   }
   
+  #grey:hover{
+    background: rgb(106, 105, 105);
+  }
+  
   #white {
     background: white;
+  }
+  #white:hover {
+    background: rgb(240, 236, 236);
   }
   #blue {
     background: blue;
   }
+  #blue:hover {
+    background: rgb(1, 1, 229);
+  }
   #yellow {
     background: yellow;
   }
+
+  #yellow:hover {
+    background: rgb(213, 213, 2);
+  }
+  
+
+  
   

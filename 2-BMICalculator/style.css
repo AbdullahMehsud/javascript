@@ -1,18 +1,14 @@
 .body {
-    /* width: 575px;
-    height: 825px; */
-  
-    background-color: #797978;
-    /* padding-left: 30px; */
+      background: rgb(2,0,36);
+      background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
+      color: white;
   }
+  
   #height,
   #weight {
-    /* margin-left: 70px; */
-    /* width: 150px;
-    height: 25px; */
     margin-top: 30px;
   }
-  p{
+  p {
     text-align: center;
   }
   
