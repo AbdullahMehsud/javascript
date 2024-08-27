@@ -89,7 +89,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 1%, rgba(253,29,29,1) 42%,
     height: 100vh;
     background-color: #474747;
     color: #fff;
-    font-size: 20px;
+    font-size: 20px; 
   }
   
   h1 {
