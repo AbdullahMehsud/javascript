@@ -57,6 +57,18 @@ html {
     /* margin-top: 30px; */
     /* margin-left: 75px; */
   }
+  #newGame{
+    background-color: rgba(59, 59, 59, 0.4);
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+  }
+  #newGame:hover{
+    background-color: rgba(59, 59, 59);
+  }
 
   #subt:hover{
     background-color: rgba(59, 59, 59);

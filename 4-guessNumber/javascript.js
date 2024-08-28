@@ -33,7 +33,7 @@ function validateGuess(guess){
     prevGuess.push(guess)
     if(numGuess === 10){
       displayGuess(guess)
-      displayMessage(`Better luck next time. The random number was ${randomNumber}`)
+      displayMessage(`Better luck next time ${"<br>"} The random number was ${randomNumber}`)
       endGame()
     }else{
       displayGuess(guess)
@@ -66,8 +66,9 @@ function displayMessage(message){
 function endGame(){
   userInput.value = ''
   userInput.setAttribute('disabled','')
+  submit.setAttribute('hidden', '')
   p.classList.add('button')
-  p.innerHTML = `<h2 id="newGame">Start new Game</h2>`;
+  p.innerHTML = `<button id="newGame">Start new Game</button>`;
   startOver.appendChild(p);
   playGame = false
   newGame()
