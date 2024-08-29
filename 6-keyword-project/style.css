@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 1px solid #e7e7e7;
+}
+body {
+    background-color: black;
+}
+.project {
+  /* background-color: #1c1c1c; */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 150px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.color {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+
